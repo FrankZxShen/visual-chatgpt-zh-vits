@@ -81,7 +81,7 @@ python visual_chatgpt.py --load "ImageCaptioning_cuda:0,ImageEditing_cuda:0,
 
 ## limitations
 
-img无法显示在gradio上？等待修复
+img无法显示在gradio上？
 
 ## Acknowledgement
 
