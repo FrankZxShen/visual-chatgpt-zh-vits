@@ -1,4 +1,5 @@
 # visual-chatgpt-zh-vits
+
 visual-chatgpt支持中文的windows版本
 
 融合vits推断模块
@@ -12,6 +13,7 @@ fork from：[visual-chatgpt-zh](https://github.com/wxj630/visual-chatgpt-zh)
 
 
 ## Demo 
+
 <img src="./assets/demo_short.gif" width="750">
 
 ##  System Architecture 
@@ -42,7 +44,7 @@ export OPENAI_API_KEY={Your_Private_Openai_Key}
 set OPENAI_API_KEY={Your_Private_Openai_Key}
 
 # 6、下载hf模型到指定目录
-# 具体模型文件地址于hf_models
+# 具体模型文件地址于hf_models，可以根据需求下载不同模型
 # 若需要vits推断功能将G.pth config.json放于vits_models下（目前仅支持日语？）
 # Windows：下载pyopenjtalk Windows于text下
 
@@ -57,6 +59,7 @@ python visual_chatgpt_zh_vits.py
 ```
 
 原作者：根据官方建议，不同显卡可以指定不同“--load”参数，显存不够的就可以时间换空间，把不重要的模型加载到cpu上，虽然推理慢但是好歹能跑不是？（手动狗头）：
+
 ```
 # Advice for CPU Users
 python visual_chatgpt.py --load ImageCaptioning_cpu,Text2Image_cpu
