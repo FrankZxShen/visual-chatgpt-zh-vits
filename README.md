@@ -44,7 +44,7 @@ export OPENAI_API_KEY={Your_Private_Openai_Key}
 set OPENAI_API_KEY={Your_Private_Openai_Key}
 
 # 6、下载hf模型到指定目录
-# 具体模型文件地址于hf_models，可以根据需求下载不同模型
+# 具体模型文件目录位于hf_models，可以根据需求下载不同模型
 # 若需要vits推断功能将G.pth config.json放于vits_models下（目前仅支持日语？）
 # Windows：下载pyopenjtalk Windows于text下
 
